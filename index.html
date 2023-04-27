@@ -4,37 +4,54 @@
     <title>Index Page</title>
      <!-- CDN Link -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
      <style>
         header {
-               color: beige; background-color: black;
+               color: rgb(10, 10, 164); background-color: rgb(234, 234, 104);
+        }
+        #userName,#number,#techStack,#education,#personal,#home{
+            margin-right: 20px;
+        }
+        #follow,#linkedin,#insta,#facebook,#google{
+            margin-right: 10px;
         }
      </style>
 </head>
 <body>
     <header>
         <i class="fa fa-user" aria-hidden="true"></i>
-    <span>Mohit Sharma</span>
+    <span id="userName">Mohit Sharma</span> 
     <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <span>9988556644</span>
+    <span id="number">9988556644</span>
     <i class="fa fa-envelope" aria-hidden="true"></i>
-    <span>rahul@gmail.com</span><br>
+    <span id="email">rahul@gmail.com</span><br>
     </header>
     <br>
     <nav>
-        <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-        <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
+        <a href="home.html" target="frame">HOME</a>
+        <span id="home"></span>
+        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> 
+        <span id="techStack"></span>
+        <a href="education.html" target="frame"> EDUCATION </a> 
+        <span id="education"></span>
+        <a href="personal.html" target="frame"> PERSONAL </a>
+        <span id="personal"></span>
         <a href="contactUs.html" target="frame"> CONTACT ME </a>
     </nav>
     <br>
     <iframe width="1050px" height="650px" name="frame" src="home.html"></iframe>
     <br>  
-    <span> Follow me </span> &nbsp; &nbsp;
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-google" aria-hidden="true"></i></a>&nbsp;&nbsp;
+    <span id="follow"> Follow me </span> 
+    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    <span id="linkedin"></span>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <span id="insta"></span>
+    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    <span id="facebook"></span>
+    <i class="fa fa-google" aria-hidden="true"></i></a>
+    <span id="google"></span>
     <i class="fa fa-youtube" aria-hidden="true"></i>
 </body>
 </html>
